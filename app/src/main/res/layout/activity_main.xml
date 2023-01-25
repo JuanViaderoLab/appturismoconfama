@@ -5,30 +5,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/editar"
     tools:context=".MainActivity">
     
-    <View
-        android:id="@+id/caja1"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        app:layout_constraintVertical_bias="0"
-        app:layout_constraintHorizontal_bias="0.5"
+    <ImageButton
+        android:id="@+id/icohotel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:background="@color/blue"/>
+        android:src="@drawable/hotel"
+        app:layout_constraintHorizontal_bias="0.2"
+        android:padding="25dp"/>
 
-    <View
-        android:id="@+id/caja2"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        app:layout_constraintVertical_bias="0.01"
-        app:layout_constraintHorizontal_bias="0"
-        app:layout_constraintTop_toBottomOf="@id/caja1"
+    <ImageButton
+        android:id="@+id/icorestaurante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:background="@color/blueviolet"/>
+        android:src="@drawable/ollacaliente"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintVertical_bias="0.68"
+        android:padding="25dp"/>
 
 </android.support.constraint.ConstraintLayout>

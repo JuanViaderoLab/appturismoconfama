@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Turistiando</string>
+
+    <string name="opcion1">Acerca de</string>
+    <string name="opcion2">Ingles</string>
+    <string name="opcion3">Español</string>
 </resources>
